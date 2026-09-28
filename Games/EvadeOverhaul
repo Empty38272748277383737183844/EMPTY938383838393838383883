@@ -1,1 +1,5 @@
-print("Common")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+LocalPlayer:Kick("in development")
+
