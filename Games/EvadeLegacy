@@ -1,1 +1,5 @@
-print("ksk4444s")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+LocalPlayer:Kick("In development")
+
